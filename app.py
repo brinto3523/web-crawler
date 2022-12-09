@@ -5,7 +5,7 @@ from urllib.parse import urlparse, urljoin
 from bs4 import BeautifulSoup
 import colorama
 
-# init the colorama module
+
 colorama.init()
 
 GREEN = colorama.Fore.GREEN
@@ -14,7 +14,7 @@ RESET = colorama.Fore.RESET
 YELLOW = colorama.Fore.YELLOW
 CYAN = colorama.Fore.CYAN
 
-# time
+
 now = datetime.now()
 format = "%d/%m/%Y %H:%M:%S %p"
 dt = now.strftime(format)
